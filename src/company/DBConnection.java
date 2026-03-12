@@ -14,7 +14,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/company",
                     "root",
-                    "Shashi@2003");
+                    "your_paasword");
 
             System.out.println("Connection Successful");
 
@@ -24,4 +24,5 @@ public class DBConnection {
 
         return con;
     }
+
 }
