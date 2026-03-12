@@ -1,5 +1,13 @@
 # employee-management-system-java
 Java Swing + JDBC Employee Management System
+
+## Author
+
+Rajashekharayya S Hiremath  
+Electronics and Communication Engineering    
+LinkedIn: linkedin.com/in/rajashekharayya-s-hiremath-68580b301/
+
+
 # Employee Management System
 
 A desktop application built using **Java Swing and JDBC** to manage employee records with a MySQL database.
