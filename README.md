@@ -57,6 +57,7 @@ age INT,
 salary DOUBLE
 );
 
+## Download
 ## Run the Application
 
 Download the runnable jar file and run it:
