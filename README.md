@@ -26,10 +26,10 @@ LinkedIn: https://linkedin.com/in/rajashekharayya-s-hiremath-68580b301/
 
 ## Technologies Used
 
-- Java
-- Java Swing
-- JDBC
-- MySQL
+- Java  
+- Java Swing  
+- JDBC  
+- MySQL  
 
 ---
 
@@ -43,9 +43,10 @@ GetEmployeeFrame.java
 UpdateEmployeeFrame.java  
 DeleteEmployeeFrame.java  
 FetchAllEmployeeFrame.java  
-DBConnection.java
+DBConnection.java  
 
 ---
+
 ## Database Setup
 
 Create the database in MySQL:
@@ -60,13 +61,52 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(50),
 age INT,
 salary DOUBLE
-); ```
+);
+```
+
+Open **DBConnection.java** and update your MySQL password.
+
+Example:
+
+```java
+Connection con = DriverManager.getConnection(
+"jdbc:mysql://localhost:3306/employee_db",
+"root",
+"your_password"
+);
+```
+
 ---
 
-## Download
-## Run the Application
+## Download Application
 
-Download the runnable jar file and run it:
-EmployeeManagementSystem.jar
-**Note**: change password to your datbase passwaord in DBConnection class.
+Download and run the application using the runnable jar file:
+
+[Download EmployeeManagementSystem.jar](employeemanagement.jar)
+
+**Note:** Change the password in `DBConnection.java` to match your MySQL password before running the application.
+
+---
+
+## Application Screenshots
+
+### Main Window
+![MainFrame](Screenshot/Mainframe_screenshot.png)
+
+### Insert Employee
+![Insert](Screenshot/InsertEmployee_screenshot.png)
+
+### Fetch All Employees
+![Fetch](Screenshot/FetchAllEmployee_screenshot.png)
+
+---
+
+## How to Run
+
+1. Install **Java (JDK 8 or above)**  
+2. Install **MySQL**  
+3. Create the database and table using the SQL commands above  
+4. Update database password in **DBConnection.java**  
+5. Run **MainFrame.java** or execute the **JAR file**
+
 ---
