@@ -91,13 +91,23 @@ Download and run the application using the runnable jar file:
 ## Application Screenshots
 
 ### Main Window
-![MainFrame](Screenshot/Mainframe_screenshot.png)
+![MainFrame](Screenshot/Mainframe.png)
 
 ### Insert Employee
-![Insert](Screenshot/InsertEmployee_screenshot.png)
+![Insert](Screenshot/Insert.png)
+
+### Insert Employee
+![GetEmployee](Screenshot/GetEmployee.png)
 
 ### Fetch All Employees
-![Fetch](Screenshot/FetchAllEmployee_screenshot.png)
+![Fetch](Screenshot/Fetch.png)
+
+### Update Employee
+![Update](Screenshot/Update.png)
+
+### Delete Employee
+![Update](Screenshot/Delete.png)
+
 
 ---
 
