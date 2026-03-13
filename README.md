@@ -96,7 +96,7 @@ Download and run the application using the runnable jar file:
 ### Insert Employee
 ![Insert](Screenshot/Insert.png)
 
-### Insert Employee
+### Get Employee
 ![GetEmployee](Screenshot/GetEmployee.png)
 
 ### Fetch All Employees
